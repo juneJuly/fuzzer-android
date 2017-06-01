@@ -22,5 +22,5 @@ $ adb push libs/armeabi/trinity /data/local/tmp/
 
 5.let's rock
   ```
-  # ./trinity --dangerous --random 50 -V /dev/ 2>&1 | tee dronity-fuzz-1.log
+  # ./trinity --dangerous --random 50 -V /dev/ 2>&1 | tee trinity-fuzz-1.log
   ```
