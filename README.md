@@ -27,15 +27,11 @@ $ adb push libs/armeabi/trinity /data/local/tmp/
 6.Examples:
 ```
   ./trinity -c splice
-```
-Stress test the splice syscall
+  Stress test the splice syscall
 
-```
-./trinity -x splice
-```
-Call every syscall except for splice.
+  ./trinity -x splice
+  Call every syscall except for splice.
 
+  ./trinity -qq -l off -C16
+  Turn off logging, and suppress most output to run as fast as possible. Use 16 child processes
 ```
-./trinity -qq -l off -C16
-```
-Turn off logging, and suppress most output to run as fast as possible. Use 16 child processes
